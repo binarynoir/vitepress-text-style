@@ -1,6 +1,6 @@
 {
   "name": "@binarynoir/vitepress-text-style",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Color and size text inline in VitePress Markdown with [t:red:1.2em]text[/t]. Values are validated, code is left alone, and the syntax nests with the rest of your Markdown.",
   "keywords": [
     "vitepress",
