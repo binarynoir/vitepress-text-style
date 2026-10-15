@@ -1,0 +1,92 @@
+{
+  "name": "@binarynoir/vitepress-text-style",
+  "version": "0.1.0",
+  "description": "Color and size text inline in VitePress Markdown with [t:red:1.2em]text[/t]. Values are validated, code is left alone, and the syntax nests with the rest of your Markdown.",
+  "keywords": [
+    "vitepress",
+    "vitepress-plugin",
+    "markdown-it",
+    "markdown-it-plugin",
+    "color",
+    "font-size",
+    "text-style",
+    "vuepress",
+    "docs",
+    "documentation"
+  ],
+  "license": "MIT",
+  "author": "BinaryNoir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binarynoir/vitepress-text-style.git"
+  },
+  "homepage": "https://github.com/binarynoir/vitepress-text-style#readme",
+  "bugs": {
+    "url": "https://github.com/binarynoir/vitepress-text-style/issues"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./vitepress": {
+      "types": "./dist/vitepress.d.ts",
+      "import": "./dist/vitepress.js",
+      "require": "./dist/vitepress.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepublishOnly": "npm run typecheck && npm run test && npm run build",
+    "release": "node scripts/release.js",
+    "release:patch": "node scripts/release.js patch",
+    "release:minor": "node scripts/release.js minor",
+    "release:major": "node scripts/release.js major"
+  },
+  "peerDependencies": {
+    "markdown-it": "^15.0.0",
+    "vitepress": "^1.0.0 || ^2.0.0-0"
+  },
+  "peerDependenciesMeta": {
+    "vitepress": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@binarynoir/vitepress-html-escape": "^0.4.2",
+    "@types/node": "^26.6.4",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "markdown-it": "^15.0.2",
+    "prettier": "^3.9.8",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.0",
+    "vitepress": "2.0.0-alpha.20",
+    "vitest": "^5.0.1",
+    "vue": "^3.5.0"
+  }
+}
