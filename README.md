@@ -12,11 +12,11 @@ code is left alone, and the text inside is still Markdown.
 It uses the same syntax as the text-style plugin many VuePress sites carry, so
 pages can move to VitePress without being rewritten.
 
-[Documentation and live demo](https://binarynoir.tech/plugins/text-style)
+[Documentation and live demo](https://binarynoir.com/plugins/text-style)
 
 [![Support me on Buy Me a Coffee](https://img.shields.io/badge/Support%20me-Buy%20Me%20a%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/binarynoir)
 [![Support me on Ko-fi](https://img.shields.io/badge/Support%20me-Ko--fi-blue?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/binarynoir)
-[![More tools](https://img.shields.io/badge/Website-binarynoir.tech-8c8c8c?style=for-the-badge)](https://binarynoir.tech)
+[![More tools](https://img.shields.io/badge/Website-binarynoir.com-8c8c8c?style=for-the-badge)](https://binarynoir.com)
 
 ## What this does
 
@@ -249,8 +249,8 @@ Pull requests are welcome too.
 ## More from BinaryNoir
 
 <p align="center">
-  <a href="https://binarynoir.tech">
-    <img alt="BinaryNoir" src="https://binarynoir.tech/logo-horizontal.png" width="320">
+  <a href="https://binarynoir.com">
+    <img alt="BinaryNoir" src="https://binarynoir.com/logo-horizontal.png" width="320">
   </a>
 </p>
 
@@ -258,16 +258,16 @@ Text Style is one of a family of open-source tools from BinaryNoir.
 
 **Pairs well with Text Style**
 
-- [Markdown Tags](https://binarynoir.tech/plugins/markdown-tags/): inline status badges and tagged-pages lists
-- [Glossary Tooltips](https://binarynoir.tech/plugins/glossary/): hover definitions from one glossary file
-- [Reading Time Tag](https://binarynoir.tech/plugins/reading-time-tag): reading-time estimates
+- [Markdown Tags](https://binarynoir.com/plugins/markdown-tags/): inline status badges and tagged-pages lists
+- [Glossary Tooltips](https://binarynoir.com/plugins/glossary/): hover definitions from one glossary file
+- [Reading Time Tag](https://binarynoir.com/plugins/reading-time-tag): reading-time estimates
 
-**New:** [Blog for Vite](https://binarynoir.tech/plugins/vite-blog): a Markdown blog for a plain Vite site, with search, feeds and a strict CSP
+**New:** [Blog for Vite](https://binarynoir.com/plugins/vite-blog): a Markdown blog for a plain Vite site, with search, feeds and a strict CSP
 
-**See them all:** VitePress plugins, Vite plugins, editor extensions and command-line tools, with documentation and live demos, at **[binarynoir.tech](https://binarynoir.tech)**.
+**See them all:** VitePress plugins, Vite plugins, editor extensions and command-line tools, with documentation and live demos, at **[binarynoir.com](https://binarynoir.com)**.
 
 <!-- binarynoir:more:end -->
 
 ## Author
 
-John Smith III, [BinaryNoir](https://binarynoir.tech). Thanks to all contributors and users for their support and feedback.
+John Smith III, [BinaryNoir](https://binarynoir.com). Thanks to all contributors and users for their support and feedback.
